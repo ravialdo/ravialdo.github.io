@@ -1,0 +1,185 @@
+/**
+ * Author : Ravialdo Imanda Putra
+ * License MIT
+ **/
+
+/* Import Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+html {
+	scroll-behavior:smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+body {
+	font-family:'Nunito', sans-serif;
+	padding-bottom:6em;
+}
+
+.btn-bubble {
+	height:50px;
+	width:50px;
+	background-color:#009EFA;
+	color:#ffffff;
+	border-radius:50%;
+	font-weight:bold;
+	margin-bottom:6em;
+}
+
+.btn-bubble:hover {
+	color:#ffffff;
+}
+
+.icon-bubble {
+	font-size:30px;
+	margin-left:-3px;
+}
+
+/* Nav */
+
+.nav {
+	padding:1em 0;
+}
+
+.lni-lg {
+	font-size:2em;
+}
+
+/* Tect Editor */
+
+.text-editor {
+	width:100%;
+	height:90px;
+	background-color:#273238;
+	border-radius:19px; 	
+	padding:10px;	
+}
+
+ .text-editor > p { 	
+	color:#536168;
+	text-align:left;
+	margin-top:15px;
+	overflow: hidden;
+	white-space:nowrap;
+	user-select: none;
+	animation: typewriter 9s steps(50, end) infinite;
+}
+
+.text-editor > .fa { 
+	color:white;
+	float:right;
+}
+
+.circle-danger { 
+	width:10px; 
+	height:10px; 
+	background-color:#f1656c; 
+	border-radius:100%; 
+	position:absolute;
+}
+
+.circle-warning {
+ 	width:10px; 	
+	height:10px; 	
+	background-color:#f4cc5f; 	
+	border-radius:100%; 
+	position:absolute; 
+	margin-left:13px;
+}
+	
+.circle-success { 
+	width:10px; 	
+	height:10px; 	
+	background-color:#44bc5d; 	
+	border-radius:100%; 	
+	margin-left:26.5px; 	
+	position:absolute;
+}
+
+@keyframes typewriter {
+	0% { width: 0; } 
+	50% { width: 100%; } 
+	100% { width: 0; }
+}
+
+/* Card */
+
+.card {
+	border:0;
+	padding-bottom:1em;
+}
+
+.card-header {
+	border:0;
+	padding:1em;
+	color:#FFFFFF;
+	font-weight:bold;
+	background-image: linear-gradient(to right, #5674d6, #5880e0, #5a8cea, #5e98f3, #62a4fc);
+}
+
+.card-title {
+	margin:1em 0 0.5em 0;
+	font-weight:bold;
+}
+
+.text-passion {
+	background-image: linear-gradient(to right, #5674d6, #5880e0, #5a8cea, #5e98f3, #62a4fc);
+	color:#ffffff;
+	padding:0.5em 0;
+	width:200px;
+	border-radius:25px;
+	text-align:center;
+	margin:0 auto;
+	font-weight:bold;
+}
+
+.btn-sosmed {
+	background-color:#ffffff;
+	padding:0.8em 0.8em;
+	border-radius:25px;
+	color:#62a4fc;
+}
+
+.btn-custom {
+	background-image: linear-gradient(to right, #5674d6, #5880e0, #5a8cea, #5e98f3, #62a4fc);
+	color:#ffffff;
+	border-radius:25px;
+	font-weight:bold;
+}
+
+.btn-custom:hover {
+	color:#ffffff;
+}
+
+/* About Me */
+
+.bg-custom {
+	background-color:#62a4fc;
+	color:#fff;
+}
+
+.text-title {
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+.text-custom {
+	color:#62a4fc;
+}
+
+.min-1 {
+	margin-top:-1em;	
+}
+
+.btn-project {
+	background-image: linear-gradient(to right, #5674d6, #5880e0, #5a8cea, #5e98f3, #62a4fc);
+	color:#ffffff;
+	border-radius:25px;
+	font-weight:bold;
+}
